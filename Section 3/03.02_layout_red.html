@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <style>
+            @import url( http://fonts.googleapis.com/css?family=Amatic+SC:700 );
+            body{ text-align: center; }
+
+            h1{ font-family: 'Amatic SC', cursive;
+                font-weight: normal;
+                color: #8ac640;
+                font-size: 2.5em;
+            }
+
+            #yesbtn{ background-color: #f44336;
+                     border: none;
+                     color: white;
+                     padding: 15px 32px;
+                     text-align: center;
+                     text-decoration: none;
+                     display: inline-block;
+                     font-size: 16px;
+            }
+
+            #nobtn{  background-color: #4CAF50;
+                     border: none;
+                     color: white;
+                     padding: 15px 32px;
+                     text-align: center;
+                     text-decoration: none;
+                     display: inline-block;
+                     font-size: 16px;
+            }
+
+            
+
+        </style>
+    </head>
+
+    <body>
+        <div class='block1'>
+            <h1>Practical Artificial Intelligence for A/B testing</h1>
+            <h2>Development of AI Agents to perform A/B testing</h2>
+            <h3>Are you Readh to start?</h3>
+            <p>AI is the intelligence demonstrated by machines</p>
+
+            <form action='/yes' method='post'>
+                <input type='checkbox' name='yescheckbox' value='yes'>
+            <button id='yesbtn' name='forwardbtn' type='submit' class='block'>Yes</button>
+            </form>
+
+            <form action='/no' method='post'>
+                <input type='checkbox' name='nocheckbox' value='no'>
+            <button id='nobtn' name='forwardbtn' type='submit' class='block'>No</button>
+            </form>
+        </div>
+    </body>
+</html>
